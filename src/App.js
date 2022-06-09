@@ -1,9 +1,13 @@
 import './App.css';
 
+import Content from './components/Content';
+import Sidebar from './components/Sidebar';
+
 function App() {
   return (
     <div className="App">
-      <h1>Joshua Toguri</h1>
+      <Sidebar />
+      <Content />
     </div>
   );
 }
