@@ -9,3 +9,7 @@
 .skill {
   width: inherit;
 }
+
+.skill h4 {
+  margin-top: 0;
+}
