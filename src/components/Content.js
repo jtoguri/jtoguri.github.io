@@ -5,8 +5,9 @@ import Skills from './Skills';
 import './Content.css';
 
 export default function Content() {
+
   return (
-    <div className="Content">
+    <div className="Content"> 
       <About />
       <Projects />
       <Skills />

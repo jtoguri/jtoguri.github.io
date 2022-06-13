@@ -8,10 +8,13 @@ html {
 body {
   margin: 0;
   background-color: #36454F;
+  color: #d3d2d2;
+  fill: #d3d2d2;
 }
 
-h2 {
+h1, h2, h3 {
   font-size: 2rem;
+  color: white;
 }
 
 ul {

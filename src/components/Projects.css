@@ -1,0 +1,9 @@
+.project-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-container a {
+  text-decoration: none; 
+  color: inherit;
+}
