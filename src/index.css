@@ -1,0 +1,19 @@
+@import-normalize;
+
+html {
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+  background-color: #36454F;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
