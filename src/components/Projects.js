@@ -1,5 +1,7 @@
 import './Projects.css';
 
+import projects from '../data/projects.json';
+
 export default function Projects() {
   return (
     <div id="Projects">

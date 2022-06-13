@@ -1,9 +1,11 @@
+import './Skills.css';
+
 export default function Skills() {
   return (
     <div id="Skills">
       <h2>Skills</h2>
-      <ul>
-        <li>
+      <div className="skills-container">
+        <div className="skill">
           <h4>Languages</h4>
           <ul>
             <li>JavaScript</li>
@@ -12,8 +14,8 @@ export default function Skills() {
             <li>HTML</li>
             <li>CSS</li>
           </ul>
-        </li>
-        <li>
+        </div>
+        <div className="skill">
           <h4>Frameworks</h4>
           <ul>
             <li>PostgreSQL</li>
@@ -22,16 +24,16 @@ export default function Skills() {
             <li>JQuery</li>
             <li>Bootstrap</li>
           </ul>
-        </li>
-        <li>
+        </div>
+        <div className="skill">
           <h4>Potential others to include ?</h4>
           <ul>
             <li>Vim</li>
             <li>Linux</li>
             <li>Docker</li>
           </ul>
-        </li>
-      </ul>
+        </div>
+      </div>
     </div>
   )
 }
