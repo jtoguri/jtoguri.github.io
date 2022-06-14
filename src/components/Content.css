@@ -5,3 +5,7 @@
   background-color: inherit;
   width: auto; 
 }
+
+.Content h2 {
+  border-bottom: solid;
+}

@@ -21,6 +21,8 @@
 }
 
 .project-container a:hover {
+  font-size: 1.1rem;
+  font-weight: bold;
   background: #6B695E;
   color: white;
   fill: white;
