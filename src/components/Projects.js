@@ -15,10 +15,14 @@ export default function Projects() {
         <img src="#" alt="Project screen-shot"/>
         <h3>{el.name}</h3>
         <p>{el.description}</p>
-        <ul>
-          <li><a href={el.active_link} target="_blank">Active Link {openIcon}</a></li>
-          <li><a href={el.source_code} target="_blank">Source Code {openIcon}</a></li>
-        </ul>
+        <div className="project-links-container">
+          <a href={el.active_link} role="button" target="_blank">
+            Live Demo {openIcon}
+          </a>
+          <a href={el.source_code} role="button" target="_blank">
+            View Source {openIcon}
+          </a>
+        </div>
       </div>
     )
   });
