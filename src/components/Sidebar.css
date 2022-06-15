@@ -7,7 +7,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: #242F36;
-  padding: 2rem;
+  padding: 2rem 2rem 0 2rem;
 }
 
 .personal {
@@ -55,7 +55,7 @@ img {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 16rem;
+    width: 25%;
     height: auto;
     text-align: left;
     padding: 2rem;
@@ -69,6 +69,11 @@ img {
 
   .sidebar-nav-socials {
     display: block;
+  }
+
+  .personal {
+    width: 100%;
+    text-align: center;
   }
 }
 
