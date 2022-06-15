@@ -1,10 +1,28 @@
 .Sidebar {
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
   background-color: #242F36;
-  padding-top: 2rem;
+  padding: 2rem;
+  padding-right: 0;
+}
+
+.personal {
+  width: 75%;
+}
+
+.site-nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.site-nav ul {
+  display: flex;
+  column-gap: 1rem;
 }
 
 img {

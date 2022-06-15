@@ -1,6 +1,6 @@
 export default function Nav() {
   return (
-    <nav>
+    <nav className="site-nav">
       <ul>
         <li><a href="#About">About</a></li>
         <li><a href="#Projects">Projects</a></li> 

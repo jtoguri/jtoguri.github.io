@@ -10,6 +10,7 @@ body {
   background-color: #36454F;
   color: #d3d2d2;
   fill: #d3d2d2;
+  width: 100vw;
 }
 
 h1, h2, h3 {

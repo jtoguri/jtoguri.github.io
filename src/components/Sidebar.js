@@ -9,9 +9,11 @@ export default function Sidebar() {
   return (
     <div className="Sidebar">
       <img src={josh} alt="Josh headshot"/>
-      <h1>Joshua Toguri</h1>
-      <p>Software Developer | Something Else | Something Else</p>
-      
+      <div className="personal">
+        <h1>Joshua Toguri</h1>
+        <p>Software Developer | Something Else | Something Else</p>
+      </div>
+
       <Nav />
       <Socials />
     </div>
