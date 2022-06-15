@@ -1,5 +1,6 @@
 .Sidebar {
   width: 100%;
+  box-sizing: border-box;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -7,7 +8,6 @@
   align-items: center;
   background-color: #242F36;
   padding: 2rem;
-  padding-right: 0;
 }
 
 .personal {
