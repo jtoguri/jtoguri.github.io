@@ -1,9 +1,16 @@
 .Content {
-  margin-left: 24rem;
-  margin-right: 4rem;
-  padding-top: 4rem;
-  background-color: inherit;
-  width: auto; 
+  margin-top: 10rem;
+}
+
+@media (min-width: 768px) {
+  .Content {
+    margin-top: auto;
+    margin-left: 24rem;
+    margin-right: 4rem;
+    padding-top: 4rem;
+    background-color: inherit;
+    width: auto; 
+  }
 }
 
 .Content h2 {

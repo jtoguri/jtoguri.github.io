@@ -1,18 +1,15 @@
 .Sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: 16rem;
-  text-align: left;
-  padding: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #242F36;
+  padding-top: 2rem;
 }
 
 img {
-  width: 100%;
+  width: 20%;
   border-radius: 50%;
-  object-fit: contain;
 }
 
 .Sidebar a {
@@ -26,6 +23,35 @@ img {
   font-size: 1.1rem;
   color: white;
   fill: white;
+}
+
+.sidebar-nav-socials {
+  display: none;
+}
+
+@media (min-width: 768px) { 
+
+  .Sidebar {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 16rem;
+    height: auto;
+    text-align: left;
+    padding: 2rem;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+  }
+
+  .sidebar-nav-socials {
+    display: block;
+  }
 }
 
 svg {
