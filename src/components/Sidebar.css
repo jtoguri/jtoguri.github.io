@@ -16,15 +16,10 @@
   padding-left: 2rem;
 }
 
-.site-nav {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
 .site-nav ul {
   display: flex;
-  column-gap: 1rem;
+  flex-direction: column;
+  row-gap: 0.5rem;
 }
 
 img {
@@ -43,6 +38,7 @@ img {
   font-size: 1.1rem;
   color: white;
   fill: white;
+  margin-left: 1rem;
 }
 
 .sidebar-nav-socials {

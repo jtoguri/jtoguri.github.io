@@ -15,7 +15,6 @@ export default function Sidebar() {
       </div>
 
       <Nav />
-      <Socials />
     </div>
   )
 }
