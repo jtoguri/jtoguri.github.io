@@ -1,0 +1,40 @@
+.header {
+  width: 100%; 
+  /*display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4rem;*/
+
+  background: #031f30;
+
+  .site-nav {
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+
+    .nav-list {
+      display: flex;
+      flex-direction: row;
+      column-gap: 1rem;
+      
+      .nav-item {
+        background-image: linear-gradient(white, white);
+        background-size: 0% 2px;
+        background-repeat: no-repeat;
+        transition: background-size 0.3s;
+        padding: 3px 0;
+        background-position: 50% 100%;
+
+        .nav-link {
+          
+          color: white;
+          text-decoration: none;
+        }
+      }
+
+      .nav-item:hover {
+        background-size: 100% 2px;
+      }
+    }
+  }
+}

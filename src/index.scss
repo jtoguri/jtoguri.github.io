@@ -1,0 +1,53 @@
+@import-normalize;
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+
+  body {
+    max-width: 100%;
+    margin: 0;
+    background-color: #272935;/*#36454F;*/ /*#031f30;*/
+    color: #d3d2d2;
+    fill: #d3d2d2;
+    width: 100vw;
+
+    .container {
+      margin: 0 auto; 
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 780px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+
+h1, h2, h3 {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}

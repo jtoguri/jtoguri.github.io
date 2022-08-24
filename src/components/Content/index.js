@@ -4,7 +4,7 @@ import Skills from '../Skills';
 import Socials from '../Socials';
 import Contact from '../Contact';
 
-import './Content.css';
+import './Content.scss';
 
 export default function Content() {
 
