@@ -1,0 +1,32 @@
+header {
+  width: calc(100% - 8rem);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #031f30;
+  padding: 0 4rem;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+}
+
+header nav ul li {
+  background-image: linear-gradient(white, white);
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s;
+  padding: 3px 0;
+  background-position: 50% 100%;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul li:hover {
+   background-size: 100% 2px;
+}

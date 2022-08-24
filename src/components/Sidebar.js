@@ -1,9 +1,9 @@
-import Nav from './Nav';
+//import Nav from './Nav';
 import Socials from './Socials';
 
 import josh from '../assets/images/josh.png';
 
-import './Sidebar.css';
+//import './Sidebar.css';
 
 export default function Sidebar() {
   return (
@@ -11,10 +11,9 @@ export default function Sidebar() {
       <img src={josh} alt="Josh headshot"/>
       <div className="personal">
         <h1>Joshua Toguri</h1>
-        <p>Software Developer | Something Else | Something Else</p>
+        <p>Software Engineer</p> 
       </div>
 
-      <Nav />
     </div>
   )
 }

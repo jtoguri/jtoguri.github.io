@@ -1,6 +1,6 @@
 import './Projects.css';
 
-import projects from '../data/projects.json';
+import projects from '../../data/projects.json';
 
 export default function Projects() {
   const openIcon = (

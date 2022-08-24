@@ -1,20 +1,24 @@
 .Content {
+  display: block;
   box-sizing: border-box;
-  margin-top: 0;
+  width: 1170px;
+  margin: 0 auto;
 }
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   .Content {
     margin-top: auto;
     margin-left: 25%;
     margin-right: 4rem;
-    padding-top: 4rem;
+    padding-top: 2rem;
     padding-left: 2rem;
     background-color: inherit;
     width: auto; 
   }
-}
+}*/
 
 .Content h2 {
-  border-bottom: solid;
+  max-width: max-content;
+  border-bottom: solid 5px #0057FF;
+  padding-top: 1rem;
 }

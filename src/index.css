@@ -12,8 +12,9 @@ html {
 }
 
 body {
+  max-width: 100%;
   margin: 0;
-  background-color: #36454F;
+  background-color: #272935;/*#36454F;*/ /*#031f30;*/
   color: #d3d2d2;
   fill: #d3d2d2;
   width: 100vw;

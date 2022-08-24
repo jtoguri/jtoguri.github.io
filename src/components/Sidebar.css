@@ -1,4 +1,4 @@
-.Sidebar {
+/*.Sidebar {
   width: 100%;
   box-sizing: border-box;
   display: flex;
@@ -6,7 +6,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  background-color: #242F36;
+  background-color: /*#242F36;*/ /*#031f30;
   padding: 1rem 2rem 0 2rem;
 }
 
@@ -35,14 +35,9 @@ img {
 
 .Sidebar a:hover {
   font-weight: bold;
-  font-size: 1.1rem;
   color: white;
   fill: white;
   margin-left: 1rem;
-}
-
-.sidebar-nav-socials {
-  display: none;
 }
 
 @media (min-width: 768px) { 
@@ -63,10 +58,6 @@ img {
     width: 100%;
     border-radius: 50%;
     object-fit: contain;
-  }
-
-  .sidebar-nav-socials {
-    display: block;
   }
 
   .personal {

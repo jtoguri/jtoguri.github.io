@@ -1,5 +1,5 @@
 import './Socials.css';
-import socials from '../data/socials.json';
+import socials from '../../data/socials.json';
 
 export default function Socials() {
 
@@ -25,10 +25,10 @@ export default function Socials() {
   );
 
   return (
-    <nav className="sidebar-nav-socials">
+    <nav className="nav-socials">
       <ul>
-        <li><a href={socials.github} target="_blank" rel="noopener">{githubIcon} GitHub</a></li>
-        <li><a href={socials.linkedin} target="_blank" rel="noopener">{linkedinIcon} LinkedIn</a></li>
+        <li><a href={socials.github} target="_blank" rel="noopener">{githubIcon}</a></li>
+        <li><a href={socials.linkedin} target="_blank" rel="noopener">{linkedinIcon}</a></li>
       </ul>
     </nav>
   )

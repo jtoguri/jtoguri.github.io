@@ -1,0 +1,26 @@
+.home-cover {
+  display: flex;
+  justify-content: center;
+  column-gap: 5rem;
+  width: calc(100% - 12rem);
+  height: auto;
+  margin: 6rem 0 0 0; 
+  padding: 0 6rem;
+}
+
+.home-cover .about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 30rem;
+}
+
+.home-cover .about h1 {
+  max-width: max-content;
+  margin: 0;
+}
+
+.home-cover img{
+  border-radius: 999px;
+}

@@ -1,5 +1,5 @@
 import './Skills.css';
-import skills from '../data/skills.json';
+import skills from '../../data/skills.json';
 
 export default function Skills() {
 
