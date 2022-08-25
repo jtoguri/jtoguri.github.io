@@ -12,11 +12,11 @@ export default function Header() {
           <li className = "nav-item" ><a className="nav-link" href="#Contact">Contact</a></li> 
         </ul>
 
-        <div className="mobile-menu-icon">
-          <div className="line"></div> 
-          <div className="line"></div> 
-          <div className="line"></div> 
-        </div>
+        <button type="button" className="mobile-menu-icon">
+            <div className="line"></div> 
+            <div className="line"></div> 
+            <div className="line"></div> 
+        </button>
 
         <ul className="mobile-nav-list">
           <li className = "nav-item" ><a className="nav-link" href="#Projects">Projects</a></li> 
