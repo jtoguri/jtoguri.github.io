@@ -16,7 +16,7 @@ export default function Skills() {
 
   return (
     <div id="Skills">
-      <h2>Skills</h2>
+      <h2 className="container-heading">Skills</h2>
       <div className="skills-container">
         {skillsContainer}
       </div>

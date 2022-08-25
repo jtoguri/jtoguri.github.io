@@ -28,7 +28,7 @@ export default function Projects() {
   });
   return (
     <div id="Projects">
-      <h2>Projects</h2>
+      <h2 className="container-heading">Projects</h2>
       <div className="project-container">
         {projectHTML}
       </div>
