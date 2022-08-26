@@ -2,7 +2,7 @@ import Socials from '../Socials';
 
 import headshot from '../../assets/images/josh.png';
 
-import './HomeCover.css';
+import './HomeCover.scss';
 
 export default function HomeCover () {
   return (
@@ -20,7 +20,7 @@ export default function HomeCover () {
         <Socials />
       </div>
 
-      <img src={headshot} />
+      <img className="headshot-img" src={headshot} />
     </div>
   );
 }
