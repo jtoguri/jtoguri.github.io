@@ -29,6 +29,8 @@ export default function Socials() {
       <ul>
         <li><a href={socials.github} target="_blank" rel="noopener">{githubIcon}</a></li>
         <li><a href={socials.linkedin} target="_blank" rel="noopener">{linkedinIcon}</a></li>
+        <li><a href={socials.twitter} target="_blank"
+        rel="noopener">{twitterIcon}</a></li>
       </ul>
     </nav>
   )
