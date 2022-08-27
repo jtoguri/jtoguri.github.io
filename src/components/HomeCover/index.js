@@ -7,6 +7,7 @@ import './HomeCover.scss';
 export default function HomeCover () {
   return (
     <div className='home-cover'>
+      <img className="headshot-img" src={headshot} />
       <div className='about'>
         <h1>Hi 👋 I'm Josh.</h1>
         <p>
@@ -19,8 +20,7 @@ export default function HomeCover () {
         </p>
         <Socials />
       </div>
-
-      <img className="headshot-img" src={headshot} />
     </div>
+
   );
 }
