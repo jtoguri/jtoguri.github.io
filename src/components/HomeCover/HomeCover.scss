@@ -3,21 +3,28 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
+  gap: 3rem;
   width: calc(100% - 6rem); 
   padding: 3rem 3rem;
 
-  .about {
+  .cover-content {
     display: flex;
     flex-direction: column;
+    gap: 1rem;
     align-items: center; 
     justify-content: center;
-    width: 100%;
+    width: fit-content;
     
-    h1 {
+    .cover-greeting {
       max-width: max-content;
       margin: 0;
       font-size: 3rem;
+      text-align: center;
+    }
+
+    .cover-bio {
+      font-size: 1.5rem;
+      text-align: center;
     }
   }
 
@@ -30,9 +37,7 @@
 
 @media (min-width: 780px) {
   .home-cover {
-    .about {
-      width: 30rem;
-    }
+    flex-direction: row-reverse;
     .headshot-img {
       width: 15rem;
     }
@@ -41,8 +46,7 @@
 
 @media (min-width: 992px) {
   .home-cover {
-
-    flex-direction: row; 
+    gap: 5rem;
 
     .headshot-img {
       width: 18rem;
