@@ -10,6 +10,7 @@ export default function Content() {
 
   return (
     <div className="container main-container"> 
+      <About />
       <Projects />
       <Skills />
       <Contact />

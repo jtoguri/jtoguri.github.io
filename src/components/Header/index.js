@@ -15,6 +15,8 @@ export default function Header() {
         <h2>Joshua Toguri</h2>
 
         <ul className="nav-list">
+          <li className = "nav-item" ><a className="nav-link"
+          href="#About">About</a></li>
           <li className = "nav-item" ><a className="nav-link" href="#Projects">Projects</a></li> 
           <li className = "nav-item" ><a className="nav-link" href="#Skills">Skills</a></li> 
           <li className = "nav-item" ><a className="nav-link" href="#Contact">Contact</a></li> 
@@ -27,6 +29,8 @@ export default function Header() {
         </button>
 
         <ul className={"mobile-nav-list " + (expand ? "expand" : "hidden")}>
+          <li className = "nav-item" ><a className="nav-link"
+          href="#About">About</a></li> 
           <li className = "nav-item" ><a className="nav-link" href="#Projects">Projects</a></li> 
           <li className = "nav-item" ><a className="nav-link" href="#Skills">Skills</a></li> 
           <li className = "nav-item" ><a className="nav-link" href="#Contact">Contact</a></li> 
